@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core Test", "Core Test", "{24E70206-418B-4A2A-BE85-FDE951E6BE93}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathLibTest", "MathLibTest\MathLibTest.vcxproj", "{63775874-0F7D-4B4A-BAFC-21642F73180F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test Framework", "Test Framework", "{14466997-80B6-4CF4-B4FF-31007377F735}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Header Files", "Header Files", "{BBADC85F-7745-4E6E-AF72-1DD03BE0CC14}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\include\UnitTest.h = ..\..\include\UnitTest.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63775874-0F7D-4B4A-BAFC-21642F73180F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{63775874-0F7D-4B4A-BAFC-21642F73180F}.Debug|Win32.Build.0 = Debug|Win32
+		{63775874-0F7D-4B4A-BAFC-21642F73180F}.Release|Win32.ActiveCfg = Release|Win32
+		{63775874-0F7D-4B4A-BAFC-21642F73180F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63775874-0F7D-4B4A-BAFC-21642F73180F} = {24E70206-418B-4A2A-BE85-FDE951E6BE93}
+		{BBADC85F-7745-4E6E-AF72-1DD03BE0CC14} = {14466997-80B6-4CF4-B4FF-31007377F735}
+	EndGlobalSection
+EndGlobal

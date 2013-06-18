@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Core", "Core\Core.vcxproj", "{3DCA41E7-03AD-4C66-9A73-9AE43BB210F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DyeEngine Core", "DyeEngine Core", "{5BC0622F-83C6-468A-90CA-B7A61C7879E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DCA41E7-03AD-4C66-9A73-9AE43BB210F8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3DCA41E7-03AD-4C66-9A73-9AE43BB210F8}.Debug|Win32.Build.0 = Debug|Win32
+		{3DCA41E7-03AD-4C66-9A73-9AE43BB210F8}.Release|Win32.ActiveCfg = Release|Win32
+		{3DCA41E7-03AD-4C66-9A73-9AE43BB210F8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3DCA41E7-03AD-4C66-9A73-9AE43BB210F8} = {5BC0622F-83C6-468A-90CA-B7A61C7879E2}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Math Library">
+      <UniqueIdentifier>{69afb86e-fa09-41ac-a2f9-6815651c39b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math Library\Header Files">
+      <UniqueIdentifier>{b4fc8141-a81a-409d-b03e-d220e0df8caa}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Math Library\Source Files">
+      <UniqueIdentifier>{955a4ac1-b6c4-4b53-b72f-d91077b6ab73}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Render System">
+      <UniqueIdentifier>{7c03433c-8f02-438e-af17-b63591c8c4ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render System\Source Files">
+      <UniqueIdentifier>{66cb8a92-ca67-4090-aea6-057cc810b00d}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Audio System">
+      <UniqueIdentifier>{f11f2e32-12ee-4414-8308-077c840e8c9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render System\Header Files">
+      <UniqueIdentifier>{de76e809-2c4c-46e7-9a78-8a166209fe12}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Audio System\Header Files">
+      <UniqueIdentifier>{0b654ecb-3599-4f78-8d9d-643df890a7d3}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Audio System\Source Files">
+      <UniqueIdentifier>{cf074449-8b4c-4f6c-b78e-68ad1d7ef4a3}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Procedural Graphics">
+      <UniqueIdentifier>{e8530896-42a6-4799-89a7-f87b9d7e31f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Procedural Graphics\Header Files">
+      <UniqueIdentifier>{d5f7f28c-c7c1-4b68-abd0-6679320be0af}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Procedural Graphics\Source Files">
+      <UniqueIdentifier>{bc42d824-d912-4009-a685-2aacb37e0b98}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\core\include\constant.hpp">
+      <Filter>Math Library\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\core\include\vector.hpp">
+      <Filter>Math Library\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\core\include\vector_helper.hpp">
+      <Filter>Math Library\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\core\include\geometry.hpp">
+      <Filter>Procedural Graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\core\include\render_method.hpp">
+      <Filter>Render System\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\core\include\primitive.hpp">
+      <Filter>Procedural Graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\core\include\matrix.hpp">
+      <Filter>Math Library\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\core\include\common_helper.h">
+      <Filter>Math Library\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\core\include\matrix_aux.hpp">
+      <Filter>Math Library\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\core\src\matrix_aux.cpp">
+      <Filter>Math Library\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
